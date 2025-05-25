@@ -1,0 +1,99 @@
+body {
+    background-color: #cbabff;
+     background-image: url("artistic-blurry-colorful-wallpaper-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    color: #f0f0f0;
+    
+}
+
+.main-container {
+    background-color: rgba(20, 20, 20, 0.95);
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.dashboard-title {
+    font-size: 2.5rem;
+    color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.dashboard-description {
+    font-size: 1.2rem;
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.dropdown-container {
+    text-align: center;
+    margin: auto;
+    width: 50%;  /* Ajusta a largura do contêiner */
+}
+
+/* Estilo para o dropdown */
+.dropdown {
+    width: 100%;  /* Faz o dropdown ocupar 100% da largura do contêiner */
+    padding: 10px;  /* Adiciona um pouco de espaço interno */
+    font-size: 16px;  /* Ajusta o tamanho da fonte */
+    color: black;
+}
+/* .dropdown-container {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    color: #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+} */
+
+.graph-container {
+    margin-top: 20px;
+}
+
+.wordcloud-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.wordcloud-container h2 {
+    font-size: 1.5rem;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.wordcloud-container img {
+    border-radius: 10px;
+    border: 2px solid #444;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+    .dropdown {
+        width: 100%;
+    }
+
+    .main-container {
+        margin: 20px;
+        padding: 20px;
+    }
+}
